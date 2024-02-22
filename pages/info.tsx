@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 
-export default function Home() {
+export default function Info() {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,11 +11,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          This will be our landing page that appears when some navigates to ArtWise.com!
+          Welcome to the ArtWise Next.js WebApp!
         </h1>
 
         <p className={styles.description}>
-          {/*Get started by making a branch from main to be your personal sandbox! The below links can help!{` `}*/}
+          Get started by making a branch from main to be your personal sandbox! The below links can help!{` `}
           {/*<code className={styles.code}>pages/index.js</code>*/}
         </p>
 

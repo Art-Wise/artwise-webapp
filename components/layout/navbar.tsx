@@ -39,9 +39,9 @@ export function Layout({ children }: { children: ReactNode }) {
                   className="text-link hover:text-link-light transition-colors no-underline [&_code]:text-link [&_code]:hover:text-link-light [&_code]:transition-colors text-accents-6 duration-200 hover:text-accents-8 cursor-pointer"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/chhpt/nextjs-starter"
+
                 >
-                  Next.js Starter
+                  ArtWise
                 </a>
               </li>
             </ul>
@@ -52,22 +52,21 @@ export function Layout({ children }: { children: ReactNode }) {
                 <a
                   data-variant="ghost"
                   className="relative inline-flex items-center justify-center cursor pointer no-underline px-3.5 rounded-md font-medium outline-0 select-none align-middle whitespace-nowrap transition-colors ease-in duration-200 text-success hover:bg-[rgba(0,68,255,0.06)] h-10 leading-10 text-[15px]"
-                  href="https://github.com/vercel/examples/tree/main"
+
                   target="_blank"
                   rel="noreferrer"
                 >
-                  More Examples →
+                  Discover Art →
                 </a>
               </span>
               <span className="flex items-center h-full ml-2 cursor-not-allowed text-accents-5">
                 <a
                   data-variant="primary"
                   className="relative inline-flex items-center justify-center cursor pointer no-underline px-3.5 rounded-md font-medium outline-0 select-none align-middle whitespace-nowrap transition-colors ease-in duration-200 border border-solid text-background bg-success border-success-dark hover:bg-success/90 shadow-[0_5px_10px_rgb(0,68,255,0.12)] h-10 leading-10 text-[15px]"
-                  href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fchhpt%2Fnextjs-starter&project-name=nextjs-starter&repository-name=nextjs-starter"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Clone &amp; Deploy
+                  Profile
                 </a>
               </span>
             </nav>
